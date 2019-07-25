@@ -1,0 +1,29 @@
+{
+  "name": "upload-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev-koa": "node -r esm ./main-koa.js",
+    "dev-express": "node -r esm ./main-express.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "aws-sdk": "^2.498.0",
+    "cloudinary": "^1.14.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "koa": "^2.7.0",
+    "koa-mount": "^4.0.0",
+    "koa-parser": "^1.0.7",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "multiparty": "^4.2.1"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
+}
